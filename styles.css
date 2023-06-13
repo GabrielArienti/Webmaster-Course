@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+form {
+  width: 96%;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+form fieldset {
+  border: 0px;
+}
+
+input {
+  width: 80%;
+}
+
+form legend {
+  text-align: center;
+  font-size: 17px;
+  color: blueviolet;
+}
+
+.container-inputs {
+  margin-top: 20px;
+}
