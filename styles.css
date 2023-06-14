@@ -52,3 +52,10 @@ form legend {
   font-size: 17px;
   color: blueviolet;
 }
+
+.radio {
+  width: 3 5%;
+  margin-top: 5px;
+  padding: 0px 0px;
+  justify-content: left;
+}
