@@ -7,55 +7,13 @@
 html,
 body {
   height: 100%;
-  background: rgb(128, 1, 131);
-  background: radial-gradient(
-    circle,
-    rgba(128, 1, 131, 1) 0%,
-    rgba(196, 0, 139, 1) 26%,
-    rgba(221, 45, 45, 1) 100%
-  );
 }
 
-.container {
-  margin: 0 auto;
-  background-color: rgb(231, 231, 231);
-  width: 80vh;
-  height: 90%;
-  box-shadow: 5px 5px 10px rgb(43, 43, 43);
+input {
+  display: none;
 }
 
-form {
-  width: 96%;
-  max-width: 600px;
-  margin: 0 auto;
-  text-align: center;
-  margin-top: 20px;
-}
-
-form fieldset {
-  border: 0px;
-  padding: 20px 20px;
-}
-
-div {
-  margin-top: 40px;
-}
-
-form input,
-select {
-  width: 80%;
-  padding: 10px 30px;
-}
-
-form legend {
-  text-align: center;
-  font-size: 17px;
-  color: blueviolet;
-}
-
-.radio {
-  width: 3 5%;
-  margin-top: 5px;
-  padding: 0px 0px;
-  justify-content: left;
+label:hover {
+  cursor: pointer;
+  background-color: whitesmoke;
 }
