@@ -15,5 +15,5 @@ input {
 
 label:hover {
   cursor: pointer;
-  background-color: whitesmoke;
+  color: grey;
 }
