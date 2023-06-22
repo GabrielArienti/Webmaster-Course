@@ -49,6 +49,7 @@ section.sobre {
   position: relative;
 }
 
+/* green background */
 .background {
   position: absolute;
   bottom: -680px;
@@ -59,7 +60,25 @@ section.sobre {
   background-color: #017143;
 }
 
+/* milkshake img */
 #milkshake {
   width: 350px;
   height: 530px;
+}
+
+/* social media icons*/
+.social-media {
+  position: absolute;
+  right: 610px;
+  top: 140px;
+}
+
+.social-media img {
+  margin-top: 30px;
+  display: block;
+  width: 20px;
+}
+
+#facebook-icon {
+  width: 13px;
 }
