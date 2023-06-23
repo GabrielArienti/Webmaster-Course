@@ -8,6 +8,7 @@
 html,
 body {
   height: 100%;
+
   overflow-x: hidden;
   overflow-y: hidden;
 }
@@ -81,4 +82,34 @@ section.sobre {
 
 #facebook-icon {
   width: 13px;
+}
+
+/* Text */
+
+.texto-sobre {
+  top: 200px;
+  left: 100px;
+  position: absolute;
+  font-size: 25px;
+}
+
+.texto-sobre p {
+  margin-top: 5px;
+  font-size: 18px;
+  max-width: 500px;
+}
+
+.texto-sobre span {
+  color: #017143;
+}
+
+button {
+  margin-top: 5px;
+  border: 0;
+  color: white;
+  background-color: #017143;
+  border-radius: 10px;
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
 }
