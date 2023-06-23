@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 /* Header */
 .center {
   width: 1280px;
@@ -27,4 +32,16 @@
   background-image: url("/assets/header_bg.png");
   background-size: cover;
   background-position: center;
+}
+
+/* Form */
+.container-banner > .center {
+  height: 100%;
+}
+
+.form {
+  width: 400px;
+  height: 100%;
+  float: right;
+  background-color: white;
 }
