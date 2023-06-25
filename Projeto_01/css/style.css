@@ -215,3 +215,28 @@ input:focus {
   padding: 10px 20px;
   text-align: center;
 }
+
+/* footer */
+
+.footer {
+  clear: both;
+  width: 100%;
+  height: 100px;
+  background-color: #212343;
+}
+
+.footer-content {
+  color: white;
+  padding-top: 25px;
+  text-align: center;
+}
+
+.footer-content h2 {
+  font-size: 17px;
+}
+
+.footer-content p {
+  margin-top: 5px;
+  font-style: italic;
+  font-size: 14px;
+}
