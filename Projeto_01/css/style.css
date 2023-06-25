@@ -20,6 +20,7 @@ body {
 }
 
 .header {
+  min-width: 1200px;
   width: 100%;
   height: 90px;
   background-color: #212343;
@@ -31,6 +32,7 @@ body {
 
 /* Banner */
 .container-banner {
+  min-width: 1200px;
   width: 100%;
   height: 557px;
   background-image: url("/assets/header_bg.png");
@@ -157,6 +159,7 @@ input:focus {
 /* Segundo anúncio */
 
 .container-2 {
+  min-width: 1200px;
   padding: 40px 0px;
   background-color: #dddddd;
   text-align: center;
@@ -184,4 +187,31 @@ input:focus {
   height: 40px;
   background-image: url(/assets/arrow.png);
   background-size: 100% 100%;
+}
+
+/* content */
+
+.content {
+  padding: 90px 0;
+}
+
+.content h2 {
+  text-align: center;
+  color: #462663;
+}
+
+.sections {
+  padding: 100px;
+  text-align: center;
+}
+
+.card {
+  padding: 30px;
+  float: left;
+  width: 33.3%;
+}
+
+.card p {
+  padding: 10px 20px;
+  text-align: center;
 }
