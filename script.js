@@ -1,2 +1,5 @@
-var el = document.querySelectorAll(".text .text-inside");
-el[1].style.color = "red";
+var box = document.querySelectorAll(".box")[0];
+setTimeout(() => {
+  alert("ola");
+  box.classList.add("animeEsquerda");
+}, 2000);
