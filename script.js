@@ -3,6 +3,12 @@ var conteudo = document
   .addEventListener("click", function () {
     var paragrafos = document.querySelectorAll(".conteudo p");
     paragrafos.forEach(function (paragrafo) {
-      paragrafo.classList.add("mostrar");
+      if (paragrafo.classList.contains("mostrar")) {
+        paragrafo.classList.remove("mostrar");
+        paragrafo.classList.add("ocultar");
+      } else {
+        paragrafo.classList.remove("ocultar");
+        paragrafo.classList.add("mostrar");
+      }
     });
   });
