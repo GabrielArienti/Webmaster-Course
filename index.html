@@ -8,20 +8,24 @@
     <title>Meu site</title>
   </head>
   <body>
-    <div class="box"></div>
-    <script src="script.js"></script>
+    <div class="conteudo">
+      <h2>Tìtulo do COnteúdo <span>Ver mais!</span></h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
+        eveniet.
+      </p>
+    </div>
     <style>
-      .box {
-        width: 200px;
-        height: 200px;
-        background-color: red;
-        margin-left: 0px;
+      .conteudo h2 span {
+        font-size: 13px;
+        cursor: pointer;
       }
 
-      .animeEsquerda {
-        transition: 1s;
-        margin-left: 1000px;
+      .conteudo p {
+        height: 0px;
+        overflow: hidden;
       }
     </style>
+    <script src="script.js"></script>
   </body>
 </html>

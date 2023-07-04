@@ -1,4 +1,7 @@
-var box = document.querySelectorAll(".box")[0];
-box.addEventListener("click", () => {
-  box.classList.add("animeEsquerda");
+document.addEventListener("DOMContentLoaded", function () {
+  var conteudo = document
+    .querySelector(".conteudo h2 span")
+    .addEventListener("click", function () {
+      alert("olá");
+    });
 });
