@@ -1,7 +1,7 @@
 teste = () => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      const erro = true;
+      const erro = false;
       if (erro) {
         reject("deu ruim");
       } else {
@@ -15,4 +15,5 @@ async function teste2() {
   console.log("agora foi");
 }
 
+teste();
 teste2();
