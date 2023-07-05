@@ -1,5 +1,18 @@
-nomes = (...nomes) => {
-  console.log(nomes);
+teste = () => {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      const erro = true;
+      if (erro) {
+        reject("deu ruim");
+      } else {
+        resolve("deu bom");
+      }
+    }, 5000);
+  });
 };
+async function teste2() {
+  await teste();
+  console.log("agora foi");
+}
 
-console.log(nomes(1, 2, 3, 4, 5, 6, 7, 8, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
+teste2();
