@@ -1,19 +1,13 @@
-teste = () => {
-  return new Promise((resolve, reject) => {
-    setTimeout(() => {
-      const erro = false;
-      if (erro) {
-        reject("deu ruim");
-      } else {
-        resolve("deu bom");
-      }
-    }, 5000);
-  });
-};
-async function teste2() {
-  await teste();
-  console.log("agora foi");
-}
+var request = new XMLHttpRequest();
+request.open("GET", "https://jsonplaceholder.typicode.com/todos/1", true);
 
-teste();
-teste2();
+request.onload = () => {
+  if (this.status >= 200 && this.status < 400) {
+    var data = JSON.parse(this.Response);
+    console.log(data);
+  }
+};
+
+request.onerror = () => {};
+
+request.send();
