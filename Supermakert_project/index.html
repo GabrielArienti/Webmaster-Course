@@ -14,8 +14,19 @@
 
     <!-- App body -->
     <div class="lista-cadastro">
-      <input type="text" placeholder="O que vai comprar?" name="nome_produto" />
-      <input type="text" placeholder="Quanto custa?." name="valor_produto" />
+      <input
+        type="text"
+        placeholder="O que vai comprar?"
+        name="nome_produto"
+        required
+      />
+      <input
+        type="number"
+        placeholder="Quanto custa?."
+        name="valor_produto"
+        stop="0.01"
+        required
+      />
       <input type="submit" name="acao" value="Adicionar!" />
     </div>
 
@@ -23,29 +34,9 @@
     <div class="lista-produtos">
       <!-- products -->
 
-      <div class="lista-produto-single">
-        <h3>Doritos</h3>
-        <h3 class="price_produto"><span>$10,99</span></h3>
-      </div>
-
-      <div class="lista-produto-single">
-        <h3>Doritos</h3>
-        <h3 class="price_produto"><span>$10,99</span></h3>
-      </div>
-
-      <div class="lista-produto-single">
-        <h3>Doritos</h3>
-        <h3 class="price_produto"><span>$10,99</span></h3>
-      </div>
-
-      <div class="lista-produto-single">
-        <h3>Doritos</h3>
-        <h3 class="price_produto"><span>$10,99</span></h3>
-      </div>
-
       <!-- total of products -->
       <div class="soma-produto">
-        <h1>Total: $43,96</h1>
+        <h1>Total: R$0,00</h1>
       </div>
     </div>
   </body>
