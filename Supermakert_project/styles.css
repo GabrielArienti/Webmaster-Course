@@ -13,6 +13,22 @@ header {
   margin-bottom: 20px;
 }
 
+.btn {
+  width: 10%;
+  background-color: rgb(15, 122, 1);
+  color: white;
+  font-weight: bold;
+  border-radius: 06px;
+  justify-content: center;
+  display: flex;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(18, 145, 1);
+}
+
 .lista-cadastro {
   display: flex;
   margin: 20px 0;
@@ -51,4 +67,28 @@ h3.price_produto > span {
 
 .soma-produto {
   margin: 20px;
+}
+
+.btn-clean {
+  width: 100px;
+  height: 30px;
+  background-color: rgb(163, 2, 2);
+  color: white;
+  font-weight: bold;
+  border-radius: 06px;
+  justify-content: center;
+  padding-top: 5px;
+  display: flex;
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.btn-clean:hover {
+  background-color: rgb(189, 2, 2);
 }

@@ -53,3 +53,10 @@ document.querySelector("input[type=submit]").addEventListener("click", () => {
   let elementoSoma = document.getElementById("result");
   elementoSoma.textContent = "R$" + total;
 });
+
+// clean button
+document.querySelector("button[name=limpar]").addEventListener("click", () => {
+  items = [];
+  document.querySelector(".lista-produtos").innerHTML = "";
+  document.getElementById("result").innerHTML = "R$0.00";
+});
