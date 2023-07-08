@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid grey;
+}
+
+.player-options img,
+.enemy-options img {
+  max-width: 100px;
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.align {
+  display: flex;
+  justify-content: space-evenly;
+}
