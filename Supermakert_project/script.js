@@ -44,13 +44,12 @@ document.querySelector("input[type=submit]").addEventListener("click", () => {
       val.valor +
       `</span></h3>
     </div>
-    
     `;
   });
 
   total = total.toFixed(2);
   nomeProdutoInput.value = "";
   precoProdutoInput.value = "";
-  let elementoSoma = document.querySelector(".soma-produto > h1");
-  elementoSoma.innerHTML = "R$" + total;
+  let elementoSoma = document.getElementById("result");
+  elementoSoma.textContent = "R$" + total;
 });
