@@ -250,6 +250,81 @@ section.benefits {
   background-color: #0035d4;
 }
 
+/* Testimonials section */
+section.testimonials {
+  background-color: #ffffff;
+  padding: 40px 0;
+}
+
+section.testimonials > h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.container-slider {
+  overflow: hidden;
+  padding: 40px 0;
+}
+
+.container-slider-single {
+  float: left;
+  box-shadow: 0px 20px 40px #2426721c;
+  background-color: white;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.container-slider-single p {
+  margin: 15px 0;
+  color: #7e92ac;
+  font-size: 14px;
+}
+
+.slick-slide {
+  margin-left: 27px;
+}
+
+/* the parent */
+.slick-list {
+  margin-left: -27px;
+}
+
+/* slider */
+
+.slick-dotted ul {
+  display: block;
+  list-style-type: none;
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+
+.slick-dotted li {
+  display: inline-block;
+  margin: 0 7px;
+}
+
+.slick-dotted button:focus {
+  outline: 0;
+}
+
+.slick-dotted li button {
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  color: #d8d8d8;
+  border-width: 0;
+  background: #d8d8d8;
+  opacity: 1;
+  cursor: pointer;
+}
+
+li.slick-active button {
+  background: #373855;
+  color: #373855;
+}
+
 /* Responsiveness */
 @media screen and (max-width: 768px) {
   .box-benefits {

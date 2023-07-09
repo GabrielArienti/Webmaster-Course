@@ -151,6 +151,109 @@
         </div>
       </div>
     </section>
+
+    <!-- testimonials section  -->
+    <section class="testimonials">
+      <h1>Testimonials</h1>
+      <div style="display: block" class="center">
+        <div class="container-slider">
+          <!-- testimonials -->
+          <div class="container-slider-single">
+            <img src="assets/DEPOIMENTO1.png" alt="" />
+            <h3>Miriam Souza</h3>
+            <span>Uber</span>
+            <p>
+              Bold Agency's work was fundamental for our positioning and our
+              strategies for 2021. Together we had excellent results and our
+              clients were surprised by the quality.
+            </p>
+            <img src="assets/RATE.png" alt="" />
+          </div>
+
+          <div class="container-slider-single">
+            <img src="assets/DEPOIMENTO2.png" alt="" />
+            <h3>Lucas Souza</h3>
+            <span>The North Face</span>
+            <p>
+              We turned to Bold Agency to help us with growth marketing
+              campaigns focused on an extremely specific audience. The product
+              had sales greater than 300%.
+            </p>
+            <img src="assets/RATE.png" alt="" />
+          </div>
+
+          <div class="container-slider-single">
+            <img src="assets/DEPOIMENTO3.png" alt="" />
+            <h3>Zaya Menphis</h3>
+            <span>Rappi</span>
+            <p>
+              The brand launch strategy would not be the same without the
+              committed work of Agência Bold. Thanks to Vinícius, who embraced
+              our challenges as one of us.
+            </p>
+            <img src="assets/RATE.png" alt="" />
+          </div>
+
+          <div class="container-slider-single">
+            <img src="assets/DEPOIMENTO1.png" alt="" />
+            <h3>Miriam Souza</h3>
+            <span>Uber</span>
+            <p>
+              Bold Agency's work was fundamental for our positioning and our
+              strategies for 2021. Together we had excellent results and our
+              clients were surprised by the quality.
+            </p>
+            <img src="assets/RATE.png" alt="" />
+          </div>
+
+          <div class="container-slider-single">
+            <img src="assets/DEPOIMENTO2.png" alt="" />
+            <h3>Lucas Souza</h3>
+            <span>The North Face</span>
+            <p>
+              We turned to Bold Agency to help us with growth marketing
+              campaigns focused on an extremely specific audience. The product
+              had sales greater than 300%.
+            </p>
+            <img src="assets/RATE.png" alt="" />
+          </div>
+
+          <div class="container-slider-single">
+            <img src="assets/DEPOIMENTO3.png" alt="" />
+            <h3>Zaya Menphis</h3>
+            <span>Rappi</span>
+            <p>
+              The brand launch strategy would not be the same without the
+              committed work of Agência Bold. Thanks to Vinícius, who embraced
+              our challenges as one of us.
+            </p>
+            <img src="assets/RATE.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
-  <script src="script.js"></script>
+  <script src="jquery.js"></script>
+  <script src="slick.min.js"></script>
+  <script>
+    $(".container-slider").slick({
+      dots: true,
+      arrows: false,
+      speed: 1000,
+      slidesToShow: 3,
+      slidesToScroll: 3,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      pauseOnHover: false,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+        },
+      ],
+    });
+  </script>
 </html>
