@@ -1,19 +1,23 @@
+/* reset all */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* defining variables for css */
 :root {
   --corPadrao: blue;
 }
 
+/* header */
 header {
   background-color: green;
   display: flex;
   flex-wrap: wrap;
 }
 
+/* class for 50% */
 .w50 {
   width: 50%;
   padding: 0 10px;
@@ -37,12 +41,14 @@ section.diferenciais {
   padding: 20px 0;
 }
 
+/* section for 33.3% (1/3 of the screen) */
 .w33 {
   width: 33.3%;
   padding: 0 10px;
   text-align: center;
 }
 
+/* footer */
 footer {
   margin-top: 25px;
   text-align: center;
@@ -50,7 +56,8 @@ footer {
   width: 100%;
 }
 
-@media screen and (max-width: 780px) {
+/* Responsive */
+@media screen and (max-width: 768px) {
   header,
   .menu {
     text-align: center;
