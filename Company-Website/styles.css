@@ -153,6 +153,43 @@ section.about > .center > p {
   text-align: left;
 }
 
+/* Call to Action section */
+section.cta {
+  background-image: url(assets/BANNER\ IMG.png);
+  background-size: cover;
+  background-position: center;
+  padding: 20px 10px;
+  min-height: 200px;
+  text-align: center;
+  color: white;
+}
+
+section.cta h2,
+section.cta h4 {
+  font-weight: normal;
+  margin: 30px 0;
+}
+
+section.cta h2 {
+  font-size: 40px;
+}
+
+section.cta a {
+  display: inline-block;
+  padding: 15px 40px;
+  background-color: #ffdd33;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #0f3fd3;
+}
+
+section.cta a:hover {
+  transition: 0.6s;
+  background-color: #ffbb00;
+}
+
 /* Responsiveness */
 @media screen and (max-width: 768px) {
   .box-benefits {
