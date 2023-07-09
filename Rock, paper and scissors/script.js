@@ -4,6 +4,59 @@ var elements = document.querySelectorAll(".player-options div > img");
 var playerOpt = "";
 var inimigoOpt = "";
 
+// who is the winner
+function validarVitoria() {
+  let vencedor = document.querySelector(".vencedor");
+
+  if (playerOpt == "papel") {
+    if (inimigoOpt == "papel") {
+      // empate
+      vencedor.style.color = "black";
+      vencedor.innerHTML = "Empate!";
+    } else if (inimigoOpt == "tesoura") {
+      // inimigo ganhou
+      vencedor.style.color = "red";
+      vencedor.innerHTML = "O computador venceu!";
+    } else if (inimigoOpt == "pedra") {
+      // player ganhou
+      vencedor.style.color = "green";
+      vencedor.innerHTML = "Você ganhou!";
+    }
+  }
+
+  if (playerOpt == "pedra") {
+    if (inimigoOpt == "papel") {
+      // inimigo ganhou
+      vencedor.style.color = "red";
+      vencedor.innerHTML = "O computador venceu!";
+    } else if (inimigoOpt == "tesoura") {
+      // player ganhou
+      vencedor.style.color = "green";
+      vencedor.innerHTML = "Você ganhou!";
+    } else if (inimigoOpt == "pedra") {
+      // empate
+      vencedor.style.color = "black";
+      vencedor.innerHTML = "Empate!";
+    }
+  }
+
+  if (playerOpt == "tesoura") {
+    if (inimigoOpt == "papel") {
+      // player ganhou
+      vencedor.style.color = "green";
+      vencedor.innerHTML = "Você ganhou!";
+    } else if (inimigoOpt == "tesoura") {
+      // empate
+      vencedor.style.color = "black";
+      vencedor.innerHTML = "Empate!";
+    } else if (inimigoOpt == "pedra") {
+      // inimigo ganhou
+      vencedor.style.color = "red";
+      vencedor.innerHTML = "O computador venceu!";
+    }
+  }
+}
+
 // resert for enemy
 function resetInimigo() {
   const enemyOptions = document.querySelectorAll(".enemy-options div");
@@ -26,8 +79,7 @@ function inimigoJogar() {
     }
   }
 
-  alert(playerOpt);
-  alert(inimigoOpt);
+  validarVitoria();
 }
 
 // function to reset opacity.
