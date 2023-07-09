@@ -190,6 +190,66 @@ section.cta a:hover {
   background-color: #ffbb00;
 }
 
+/* Section benefits */
+section.benefits {
+  padding: 50px 0;
+}
+.list-benefits {
+  margin-top: 80px;
+  width: 40%;
+}
+
+.list-benefits h1 {
+  margin-left: 20px;
+  margin-bottom: 30px;
+  color: black;
+  font-size: 40px;
+}
+
+.list-benefits p {
+  color: #7e92ac;
+  vertical-align: middle;
+  font-size: 14px;
+}
+
+.list-benefits p:last-of-type {
+  margin-bottom: 25px;
+}
+
+.list-benefits span {
+  display: inline-block;
+  width: calc(100% - 70px);
+}
+
+.list-benefits img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 70px;
+}
+
+.img-benefits {
+  width: 60%;
+}
+
+.img-benefits img {
+  max-width: 100%;
+}
+
+.list-benefits a {
+  padding: 15px 45px;
+  background-color: #255aff;
+  color: white;
+  border-radius: 10px;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.list-benefits a:hover {
+  transition: 0.6s;
+  background-color: #0035d4;
+}
+
 /* Responsiveness */
 @media screen and (max-width: 768px) {
   .box-benefits {
@@ -210,5 +270,15 @@ section.cta a:hover {
 
   .cards {
     flex-wrap: wrap;
+  }
+
+  .list-benefits,
+  .img-benefits {
+    width: 100%;
+    text-align: center;
+  }
+
+  .list-benefits a {
+    margin-left: 0;
   }
 }
