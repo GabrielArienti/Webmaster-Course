@@ -97,3 +97,81 @@ section.main {
 .mockup img {
   max-width: 100%;
 }
+
+/* Brands section */
+section.brands img {
+  /* 5 images, 100%/5 */
+  width: 20%;
+  padding: 100px 0;
+}
+
+/* section about us */
+section.about {
+  padding: 40px 0;
+  background-color: #f7f7f7;
+}
+
+section.about > .center {
+  max-width: 1280px;
+}
+
+section.about > .center > h2 {
+  font-size: 64px;
+  text-align: center;
+  width: 100%;
+}
+
+section.about > .center > p {
+  font-size: 14px;
+  text-align: center;
+  color: #ccc;
+  width: 100%;
+}
+
+.cards {
+  display: flex;
+  margin-top: 10%;
+}
+
+.box-benefits {
+  box-shadow: 0px 20px 40px #2426721c;
+  width: 31%;
+  margin-right: 2%;
+  padding: 30px 50px;
+  border-radius: 10px;
+}
+
+.box-benefits h3 {
+  font-size: 28px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.box-benefits p {
+  font-size: 12px;
+  color: #7e92ac;
+  text-align: left;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 768px) {
+  .box-benefits {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  section.brands > .center {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section.brands img {
+    max-width: 300px;
+    width: 100%;
+  }
+
+  .cards {
+    flex-wrap: wrap;
+  }
+}
