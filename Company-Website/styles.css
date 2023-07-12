@@ -379,6 +379,22 @@ section.contato form {
   transition: 0.6s;
   background-color: #193d77;
 }
+
+/* footer */
+footer {
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  padding: 10px 0;
+  background-color: #255aaf;
+  color: white;
+}
+
+.text-footer {
+  display: flex;
+  width: 30%;
+}
+
 /* Responsiveness */
 @media screen and (max-width: 768px) {
   .box-benefits {
