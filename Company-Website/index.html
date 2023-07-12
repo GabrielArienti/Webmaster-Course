@@ -38,6 +38,16 @@
             <a href="#">Testimonials</a>
             <a href="#" class="contact-btn">Contact us</a>
           </div>
+
+          <div class="itens-menu-mobile">
+            <i class="fa-solid fa-bars"></i>
+            <div class="menu-mobile">
+              <a href="#">Home</a>
+              <a href="#">About us</a>
+              <a href="#">Testimonials</a>
+              <a href="#" class="contact-btn">Contact us</a>
+            </div>
+          </div>
         </div>
 
         <!-- mockup -->
@@ -282,5 +292,20 @@
         },
       ],
     });
+  </script>
+  <script>
+    
+    var menuBtn = document.querySelector('.itens-menu-mobile');
+    menuBtn.addEventListener('click', ()=>{
+      let itemsMenu = document.querySelector('.menu-mobile');
+      if (itemsMenu.classList.contains('show')){
+        itemsMenu.classList.remove('show')
+        itemsMenu.classList.add('hidde')
+      } else {
+        itemsMenu.classList.remove('hidde')
+        itemsMenu.classList.add('show')
+      }
+     
+    })
   </script>
 </html>
