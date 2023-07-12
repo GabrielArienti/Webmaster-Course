@@ -390,9 +390,9 @@ footer {
   color: white;
 }
 
-.text-footer {
+.footer {
   display: flex;
-  width: 30%;
+  width: 50%;
 }
 
 /* Responsiveness */
